@@ -7,7 +7,7 @@ Los scripts fueron probados utilizando los switches HP 2920 y HP 3500yl, el cont
 
 Se agrega el archivo requirements.txt
 
-## Ejemplos de ejecución
+## Ejecución
 
 ### a2.py - Script para insertar flujos en la tabla con id 100 de una instancia Openflow 1.3
 
