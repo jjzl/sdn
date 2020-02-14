@@ -1,0 +1,5 @@
+interface 28
+	flow-control
+	rate-limit all out kbps 500
+	rate-limit all in kbps 500
+	exit
