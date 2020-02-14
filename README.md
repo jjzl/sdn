@@ -38,3 +38,12 @@ usage: a4.py [-h] -c CONTROLLER -u USER -p PASSWD
 Ejemplo:
 
 python3 a4.py -c 10.10.10.101 -u sdn -p skyline
+
+### a5.py - Script para obtener los nodos vecinos de un nodo determinado a partir del controlador SDN
+
+python3 a5.py -h
+usage: a5.py [-h] -c CONTROLLER -u USER -p PASSWD
+
+Ejemplo:
+
+python3 a5.py -c 10.10.10.101 -u sdn -p skyline
