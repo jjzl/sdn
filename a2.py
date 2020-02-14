@@ -27,7 +27,7 @@ def insert_flow(ctrl, user, passwd, dpid, pid, pv, src, dst):
 				"match":[{"ipv4_src":"'+src+'"},{"ipv4_dst":"'+dst+'"},{"eth_type":"ipv4"}],\
 				"instructions":[{"apply_actions":[{"output":'+pid+'}]}]}}'
 
-	url_flow = 'https://148.247.201.101:8443/sdn/v2.0/of/datapaths/'+dpid+'/flows'
+	url_flow = 'https://'+ctrl+':8443/sdn/v2.0/of/datapaths/'+dpid+'/flows'
 
 	headers_flow = {"Content-Type": "application/json", "X-Auth-Token": token}
 	res_flow = requests.post(url_flow, headers=headers_flow, data=payload, verify=False)
