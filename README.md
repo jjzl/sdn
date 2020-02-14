@@ -47,3 +47,13 @@ usage: a5.py [-h] -c CONTROLLER -u USER -p PASSWD
 Ejemplo:
 
 python3 a5.py -c 10.10.10.101 -u sdn -p skyline
+
+### a6.py - Script para obtener los datos transmitidos en un puerto de un DPID determinado en el transcurso de 60 segundos
+
+python3 a6.py -h
+usage: a6.py [-h] -c CONTROLLER -u USER -p PASSWD
+
+Ejemplo:
+
+python3 a6.py -c 10.10.10.101 -u sdn -p skyline
+
