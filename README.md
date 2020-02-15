@@ -57,3 +57,19 @@ Ejemplo:
 
 python3 a6.py -c 10.10.10.101 -u sdn -p skyline
 
+### a7.py - Script para obtener los datos transmitidos en un puerto de un DPID determinado cada 60 segundos e insertarlos en una base de datos en InfluxDB y desplegarlos en un dashboard de Grafana
+
+
+python3 a7.py -h
+usage: a7.py [-h] -c CONTROLLER -u USER -p PASSWD -dpid DATAPATH -pt PORT -ds
+             DBSERVER -db DATABASE -dp DBPORT -du DBUSER -dps DBPASS -t TABLE
+             -f FIELD -s SAMPLE
+
+Ejemplo:
+
+python3 a7.py -c 10.10.10.101 -u sdn -p skyline -dpid 00:0b:64:51:06:ca:a2:c0 -pt 4 -ds localhost -dp 8086 -du root -dps root -db bw -t sw3 -f 4 -s 60
+
+Requerimientos:
+
+InfluxDB
+Grafana v6.4.3 
