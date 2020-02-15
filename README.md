@@ -71,5 +71,4 @@ python3 a7.py -c 10.10.10.101 -u sdn -p skyline -dpid 00:0b:64:51:06:ca:a2:c0 -p
 
 Requerimientos:
 
-InfluxDB
-Grafana v6.4.3 
+InfluxDB, Grafana v6.4.3 
